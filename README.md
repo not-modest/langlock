@@ -12,7 +12,6 @@ It changes menus and labels, not paper titles or author-written content. Works i
 2. Move the extracted folder to a permanent location, such as `Documents/Langlock`. Keep it there after installation.
 3. Open your browser's extensions page by typing this into the address bar:
    - **Chrome:** `chrome://extensions`
-   - **Comet:** `comet://extensions`
 4. Turn on **Developer mode** using the switch near the top right.
 5. Click **Load unpacked**. Select the extracted **folder containing `manifest.json`**, then confirm. Select the folder, not the ZIP or the manifest file itself.
 6. Open or refresh Google Scholar. **English is enabled immediately.**
