@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "hl",
+                "value": "en"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://scholar\\.google\\.[a-z]+(?:\\.[a-z]+)?(?::[0-9]+)?/",
+      "isUrlFilterCaseSensitive": true,
+      "requestDomains": [
+        "scholar.google.com",
+        "scholar.google.ca",
+        "scholar.google.co.in",
+        "scholar.google.co.jp",
+        "scholar.google.co.kr",
+        "scholar.google.co.uk",
+        "scholar.google.com.au",
+        "scholar.google.com.br",
+        "scholar.google.com.hk",
+        "scholar.google.com.tw",
+        "scholar.google.de",
+        "scholar.google.es",
+        "scholar.google.fr",
+        "scholar.google.it",
+        "scholar.google.nl",
+        "scholar.google.pl"
+      ],
+      "requestMethods": [
+        "get"
+      ],
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "regexFilter": "^https?://scholar\\.google\\.[a-z]+(?:\\.[a-z]+)?(?::[0-9]+)?/[^?#]*\\?(?:[^#]*&)?hl=en(?:[&#]|$)",
+      "isUrlFilterCaseSensitive": true,
+      "requestDomains": [
+        "scholar.google.com",
+        "scholar.google.ca",
+        "scholar.google.co.in",
+        "scholar.google.co.jp",
+        "scholar.google.co.kr",
+        "scholar.google.co.uk",
+        "scholar.google.com.au",
+        "scholar.google.com.br",
+        "scholar.google.com.hk",
+        "scholar.google.com.tw",
+        "scholar.google.de",
+        "scholar.google.es",
+        "scholar.google.fr",
+        "scholar.google.it",
+        "scholar.google.nl",
+        "scholar.google.pl"
+      ],
+      "requestMethods": [
+        "get"
+      ],
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 3,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "hl"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://scholar\\.google\\.[a-z]+(?:\\.[a-z]+)?(?::[0-9]+)?/[^?#]*\\?(?:[^#]*&)?hl(?:=[^&#]*)?&(?:[^#]*&)?hl(?:=|[&#]|$)",
+      "isUrlFilterCaseSensitive": true,
+      "requestDomains": [
+        "scholar.google.com",
+        "scholar.google.ca",
+        "scholar.google.co.in",
+        "scholar.google.co.jp",
+        "scholar.google.co.kr",
+        "scholar.google.co.uk",
+        "scholar.google.com.au",
+        "scholar.google.com.br",
+        "scholar.google.com.hk",
+        "scholar.google.com.tw",
+        "scholar.google.de",
+        "scholar.google.es",
+        "scholar.google.fr",
+        "scholar.google.it",
+        "scholar.google.nl",
+        "scholar.google.pl"
+      ],
+      "requestMethods": [
+        "get"
+      ],
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]

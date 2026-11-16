@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/rules.test.mjs",
+    "test:chrome": "node tests/chrome.mjs"
+  }
+}
