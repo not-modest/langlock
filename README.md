@@ -8,7 +8,7 @@ It changes menus and labels, not paper titles or author-written content. Works i
 
 ## Install — no coding required
 
-1. **[Download the latest Langlock ZIP]([https://github.com/not-modest/langlock/langlock.zip](https://github.com/not-modest/langlock/raw/refs/heads/main/dist/langlock.zip))** and unzip it.
+1. **[Download the latest Langlock ZIP](https://github.com/not-modest/langlock/raw/refs/heads/main/dist/langlock.zip)** and unzip it.
 2. Move the extracted folder to a permanent location, such as `Documents/Langlock`. Keep it there after installation.
 3. Open your browser's extensions page by typing this into the address bar:
    - **Chrome:** `chrome://extensions`
