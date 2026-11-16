@@ -4,7 +4,7 @@
 
 **Keep Google Scholar in your language.** Langlock automatically fixes Scholar links that open in another interface language. English is the default, with 14 languages to choose from.
 
-It changes menus and labels, not paper titles or author-written content. Works in Chrome and has been tested in Comet. No account, server, or analytics.
+It changes menus and labels, not paper titles or author-written content. Works in Chrome. No account, server, or analytics.
 
 ## Install — no coding required
 
