@@ -1,4 +1,4 @@
-<p align="center"><img src="extension/icons/icon-128.png" width="96" alt="Langlock logo"></p>
+<p align="center"><img src="icons/icon-128.png" width="96" alt="Langlock logo"></p>
 
 # Langlock
 
