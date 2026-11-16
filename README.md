@@ -20,10 +20,6 @@ Open the browser's puzzle-piece Extensions menu and pin **Langlock** for quick a
 
 **If you used GitHub's Code → Download ZIP instead:** unzip the repository and select its `extension` subfolder in step 5. The dedicated download above is simpler.
 
-### Try it
-
-[Open this German-language Scholar link](https://scholar.google.com/citations?user=NKrwIH8AAAAJ&hl=de). With Langlock enabled in English, the address changes to `hl=en` and the page shows English controls such as “Cited by”.
-
 ### Update or uninstall
 
 GitHub installs do **not** update automatically. To update:
